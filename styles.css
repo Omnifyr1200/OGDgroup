@@ -19,12 +19,12 @@ html, body {
 /*modify the elements of the page*/
       
 .avatar-container .Player-username {
-     font-size: 3em;
+     font-size: 1,5em;
      font-family: "papyrus", fantasy;
      color:rgba(255, 255, 255, 0.8);
     }
 .avatar-subtext{
-     font-size: 3em;
+     font-size: 1,5em;
      font-family: "papyrus", fantasy;
      color:rgba(64, 0, 0, 0.9);
     }
@@ -49,7 +49,7 @@ html, body {
 
 .container {
     max-width: none !important;
-   background-image: url('https://thumbs.gfycat.com/AbandonedGrimKagu-size_restricted.gif');
+   background-image: url('https://cutewallpaper.org/28/dojo-background-wallpaper/evolution-9-style-grand-seiko.png');
 }
 
 
@@ -59,19 +59,30 @@ html, body {
      color:rgba(255, 255, 255, 0.8);
     }
 
+.PaginatedTable.game-history-table.clickable-rows{
+	background-image: url('https://images.pexels.com/videos/3045163/free-video-3045163.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+	background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0,0,0,0);
+}
 	
+.PaginatedTable.review-history-table.clickable-rows {
+	background-image: url('https://images.pexels.com/videos/3045163/free-video-3045163.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+	background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0,0,0,0);
+}
+	.Card{
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 10px;
+  opacity: 0.9;
+}
 
 /*HIDE PARTS*/
 
 .PlayerIcon.PlayerIcon-128{
-	display: none !important;
-}
-
-.col-sm-12{
-  	display: none !important;
-}
-
-.col-sm-4{
 	display: none !important;
 }
 
@@ -80,7 +91,7 @@ html, body {
  
 h2 {
 	font-family: "papyrus", fantasy;
-        color:RGBA( 64, 0, 0, 1 );
+        color:RGBA( 255, 255, 255, 0,86);
 }
 
 h3 {
@@ -124,11 +135,11 @@ margin-left: auto;
 margin-right: auto;
 }
 
-.images {
- width: 7%;
+.image2 {
+ width: 40%;
 margin-left: auto;
 margin-right: auto;
-border-radius: 2.5em;
+border-radius: 1.5em;
 }
 
 .gif{
@@ -157,7 +168,7 @@ border-radius: 2.5em;
   /* Apply animation to this element */	
   animation: scrolling 15s linear infinite;
   z-index: 9999;
-  background-image: url(https://thumbs.gfycat.com/MelodicEllipticalHarpseal-max-1mb.gif);
+  background-image: url(https://64.media.tumblr.com/0c49fc60cac37776985f613a8e2cf96b/tumblr_ms5kayIt6b1s8b1s0o1_r1_500.gif);
   background-size: 30%;
   background-repeat: no-repeat;
   background-position: center;
